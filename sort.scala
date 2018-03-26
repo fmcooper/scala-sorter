@@ -27,7 +27,7 @@ object sort {
 
     val result = option match {
       case 1  => processQuickSort(tosort)
-      // case 2  => processMergeSort(tosort)
+      case 2  => processMergeSort(tosort)
       case _ => throw new IllegalArgumentException
     }
 
@@ -42,11 +42,11 @@ object sort {
     sorter.run
   }
 
-  // def processMergeSort(tosort: Array[Int]): Array[Int] = {
-  //   println("Mergesort")
-  //   val sorter = new MergeSorter(tosort)
-  //   sorter.run
-  // }
+  def processMergeSort(tosort: Array[Int]): Array[Int] = {
+    println("Mergesort")
+    val sorter = new MergeSorter(tosort)
+    sorter.run
+  }
 
 
 
