@@ -1,4 +1,4 @@
-package sorter
+package src
 
   /**
   * <p> Mergesort algorithm class. Sorts an array of Int. </p>

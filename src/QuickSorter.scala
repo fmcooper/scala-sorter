@@ -1,4 +1,4 @@
-package sorter
+package src
 
   /**
   * <p> Quicksort algorithm class. Sorts an array of Int. </p>
